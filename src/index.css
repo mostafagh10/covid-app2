@@ -5,9 +5,230 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  color: white;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+.App{
+  margin: auto;
+  text-align: center;
+}
+table{
+  margin: auto;
+}
+p{
+  display: inline-block;
+}
+button{
+  width: 140px;
+  font-size: 20px;
+  height: 40px;
+  font-weight: bold;
+  transition: all 0.4s ease-in-out;
+}
+button:hover{
+  cursor: pointer;
+  color: white;
+  background: none;
+}
+.con{
+  color: rgb(224, 104, 5);
+}
+.rec{
+  color: rgb(6, 228, 6);
+}
+.dea{
+  color: red;
+}
+.con:hover{
+  border: 2px solid rgb(224, 104, 5);
+}
+.rec:hover{
+  border: 2px solid rgb(6, 228, 6);
+}
+.dea:hover{
+  border: 2px solid red;
+}
+.c{
+  color: rgb(224, 104, 5);
+}
+.r{
+  color: rgb(6, 228, 6);
+}
+.d{
+  color:red
+}
+.load{
+  width: 200px;
+}
+.s1,.s2,.s3,.s4{
+  color: black;
+}
+.s1{
+  -webkit-animation: wave 1.5s infinite linear;
+  animation: wave 1.5s infinite linear;
+}
+.s2{
+  -webkit-animation: wave2 1.5s infinite linear;
+  animation: wave2 1.5s infinite ease-in-out;
+}
+.s3{
+  -webkit-animation: wave3 1.5s infinite linear;
+  animation: wave3 1.5s infinite ease-in-out;
+}
+.s4{
+  -webkit-animation: wave4 1.5s infinite linear;
+  animation: wave4 1.5s infinite ease-in-out;
+}
+@keyframes wave{
+  0%{
+    color: black;
+  }
+  20%{
+    color: white;
+  }
+  40%{
+    color: white;
+  }
+  80%{
+    color: white;
+  }
+  100%{
+    color: black;
+  }
+}
+
+@-webkit-keyframes wave{
+  0%{
+    color: black;
+  }
+  20%{
+    color: white;
+  }
+  40%{
+    color: white;
+  }
+  80%{
+    color: white;
+  }
+  100%{
+    color: black;
+  }
+}
+@keyframes wave2{
+  0%{
+    color: black;
+  }
+  20%{
+    color: black;
+  }
+  40%{
+    color: white;
+  }
+  80%{
+    color: white;
+  }
+  100%{
+    color: black;
+  }
+}
+@-webkit-keyframes wave2{
+  0%{
+    color: black;
+  }
+  20%{
+    color: black;
+  }
+  40%{
+    color: white;
+  }
+  80%{
+    color: white;
+  }
+  100%{
+    color: black;
+  }
+}
+
+@keyframes wave3{
+  0%{
+    color: black;
+  }
+  20%{
+    color: black;
+  }
+  40%{
+    color: black;
+  }
+  80%{
+    color: white;
+  }
+  100%{
+    color: white;
+  }
+}
+@-webkit-keyframes wave3{
+  0%{
+    color: black;
+  }
+  20%{
+    color: black;
+  }
+  40%{
+    color: black;
+  }
+  80%{
+    color: white;
+  }
+  100%{
+    color: white;
+  }
+}
+
+@keyframes wave4{
+  0%{
+    color: black;
+  }
+  20%{
+    color: black;
+  }
+  40%{
+    color: black;
+  }
+  80%{
+    color: black;
+  }
+  100%{
+    color: white;
+  }
+}
+@-webkit-keyframes wave4{
+  0%{
+    color: black;
+  }
+  20%{
+    color: black;
+  }
+  40%{
+    color: black;
+  }
+  80%{
+    color: black;
+  }
+  100%{
+    color: white;
+  }
+}
+
+
